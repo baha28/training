@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'jokeProject';
+
 }
+// platformBrowserDynamic().bootstrapModule(app.Module).then(r => console.log(r));
